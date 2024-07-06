@@ -49,5 +49,6 @@ npm start
 
 6. Open your browser and go to **http://localhost:3000** to view the real-time system monitor.
 
-![image](https://github.com/LucasLopesLedur/SystemMonitorDashboard/assets/102767476/3ba8b7ae-a995-46f9-961f-0efb16edcb1a)
+![Captura de tela 2024-07-06 001721](https://github.com/LucasLopesLedur/SystemMonitorDashboard/assets/102767476/763cb7f1-34dd-45ec-adbe-394e21320649)
+
 
