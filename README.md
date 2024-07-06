@@ -1,34 +1,53 @@
 # System Monitor Dashboard
 
-Este é um projeto de sistema de monitoramento que exibe informações de sistema em tempo real, utilizando React para o frontend e Flask com SQLAlchemy para o backend.
+This is a system monitoring project that displays real-time system information, using React for the frontend and Flask with SQLAlchemy for the backend.
 
-## Funcionalidades
+## Features
 
-- Exibe informações detalhadas sobre o sistema, como CPU, memória e uso de disco.
-- Atualiza automaticamente sem recarregar a página.
-- Armazena informações do sistema em um banco de dados SQLite.
+- Displays detailed system information such as CPU, memory, and disk usage.
+- Stores system information in an SQLite database.
 
-## Tecnologias Utilizadas
+## Technologies Used
 
-- **Frontend:** React, Axios
-- **Backend:** Flask, SQLAlchemy
-- **Banco de Dados:** SQLite
-- **Controle de Versão:** Git, GitHub
+- **Frontend:** Javascript, React
+- **Backend:** Python, Flask
 
-## Estrutura do Projeto
+## Installation and Usage
 
-- `FrontEnd/`: Contém o código do frontend em React.
-- `BackEnd/`: Contém o código do backend em Flask.
-
-## Instalação e Uso
-
-1. Clone o repositório:
+1. Clone the repository:
 
    ```bash
    git clone https://github.com/LucasLopesLedur/SystemMonitorDashboard.git
+   ```
+2. Install frontend and backend dependencies:
+
+```bash
    cd FrontEnd
    npm install
    cd ../BackEnd
    pip install -r requirements.txt
-   ```
-  
+```
+
+
+3. Database:
+
+- The SQLite database is automatically configured by Flask when starting the server.
+
+4. Start the backend server:
+
+```bash
+cd BackEnd
+python server.py
+```
+
+5. Start the frontend server:
+
+```bash
+cd FrontEnd
+npm start
+```
+
+6. Open your browser and go to **http://localhost:3000** to view the real-time system monitor.
+
+# License
+- This project is licensed under the MIT License
