@@ -48,3 +48,5 @@ npm start
 ```
 
 6. Open your browser and go to **http://localhost:3000** to view the real-time system monitor.
+
+![image](https://github.com/LucasLopesLedur/SystemMonitorDashboard/assets/102767476/65001b15-344e-4142-a6c3-6f3691ff2bc2)
