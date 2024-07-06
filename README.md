@@ -48,6 +48,3 @@ npm start
 ```
 
 6. Open your browser and go to **http://localhost:3000** to view the real-time system monitor.
-
-# License
-- This project is licensed under the MIT License
